@@ -1,8 +1,9 @@
 {
   "name": "firebird-async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "conector firebird com async / await",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "vitest --disable-console-intercept --silent=false",
@@ -19,5 +20,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "node-firebird": "^1.1.9"
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
